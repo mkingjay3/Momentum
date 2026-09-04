@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "title": "Team Meeting",
+    "start": "2026-03-15",
+    "description": "Weekly team sync",
+    "extendedProps": { "description": "Weekly team sync", "location": "Room 204", "level": "Beginner" }
+  },
+  {
+    "id": "2",
+    "title": "Project Deadline",
+    "start": "2026-03-20",
+    "extendedProps": { "description": "SDG project submission", "location": "Online", "level": "Intermediate" }
+  },
+  {
+    "id": "3",
+    "title": "Workshop",
+    "start": "2026-03-25",
+    "end": "2026-03-26",
+    "extendedProps": { "description": "Sustainability workshop", "location": "Auditorium", "level": "Beginner" }
+  },
+  {
+    "id": "4",
+    "title": "Review Session",
+    "start": "2026-04-02",
+    "extendedProps": { "description": "Mid-project review", "location": "Library", "level": "Advanced" }
+  }
+]

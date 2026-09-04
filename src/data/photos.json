@@ -1,0 +1,92 @@
+[
+  {
+    "src": "https://picsum.photos/seed/a1/800/600",
+    "width": 800,
+    "height": 600,
+    "alt": "Photo 1",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/a1/400/300", "width": 400, "height": 300 },
+      { "src": "https://picsum.photos/seed/a1/200/150", "width": 200, "height": 150 }
+    ]
+  },
+  {
+    "src": "https://picsum.photos/seed/b2/600/800",
+    "width": 600,
+    "height": 800,
+    "alt": "Photo 2",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/b2/300/400", "width": 300, "height": 400 },
+      { "src": "https://picsum.photos/seed/b2/150/200", "width": 150, "height": 200 }
+    ]
+  },
+  {
+    "src": "https://picsum.photos/seed/c3/900/600",
+    "width": 900,
+    "height": 600,
+    "alt": "Photo 3",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/c3/450/300", "width": 450, "height": 300 },
+      { "src": "https://picsum.photos/seed/c3/225/150", "width": 225, "height": 150 }
+    ]
+  },
+  {
+    "src": "https://picsum.photos/seed/d4/700/700",
+    "width": 700,
+    "height": 700,
+    "alt": "Photo 4",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/d4/350/350", "width": 350, "height": 350 },
+      { "src": "https://picsum.photos/seed/d4/175/175", "width": 175, "height": 175 }
+    ]
+  },
+  {
+    "src": "https://picsum.photos/seed/e5/800/500",
+    "width": 800,
+    "height": 500,
+    "alt": "Photo 5",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/e5/400/250", "width": 400, "height": 250 },
+      { "src": "https://picsum.photos/seed/e5/200/125", "width": 200, "height": 125 }
+    ]
+  },
+  {
+    "src": "https://picsum.photos/seed/f6/600/900",
+    "width": 600,
+    "height": 900,
+    "alt": "Photo 6",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/f6/300/450", "width": 300, "height": 450 },
+      { "src": "https://picsum.photos/seed/f6/150/225", "width": 150, "height": 225 }
+    ]
+  },
+  {
+    "src": "https://picsum.photos/seed/g7/1000/600",
+    "width": 1000,
+    "height": 600,
+    "alt": "Photo 7",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/g7/500/300", "width": 500, "height": 300 },
+      { "src": "https://picsum.photos/seed/g7/250/150", "width": 250, "height": 150 }
+    ]
+  },
+  {
+    "src": "https://picsum.photos/seed/h8/750/500",
+    "width": 750,
+    "height": 500,
+    "alt": "Photo 8",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/h8/375/250", "width": 375, "height": 250 },
+      { "src": "https://picsum.photos/seed/h8/188/125", "width": 188, "height": 125 }
+    ]
+  },
+  {
+    "src": "https://picsum.photos/seed/i9/600/750",
+    "width": 600,
+    "height": 750,
+    "alt": "Photo 9",
+    "srcSet": [
+      { "src": "https://picsum.photos/seed/i9/300/375", "width": 300, "height": 375 },
+      { "src": "https://picsum.photos/seed/i9/150/188", "width": 150, "height": 188 }
+    ]
+  }
+]

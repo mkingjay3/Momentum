@@ -1,0 +1,110 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Sustainability green design system */
+[data-theme="momentum"], :root {
+  --color-primary: #1b4332;
+  --color-primary-content: #ffffff;
+  --color-secondary: #f0f7f4;
+  --color-secondary-content: #1b4332;
+  --color-accent: #007d48;
+  --color-accent-content: #ffffff;
+  --color-base-100: #ffffff;
+  --color-base-200: #f0f7f4;
+  --color-base-300: #b7d5c8;
+  --color-base-content: #1b4332;
+  --color-neutral: #1b4332;
+  --color-neutral-content: #ffffff;
+  --radius-selector: 9999px;
+  --radius-field: 1.5rem;
+  --radius-box: 0px;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Green sustainability palette */
+  --color-ink: #1b4332;
+  --color-canvas: #ffffff;
+  --color-soft-cloud: #f0f7f4;
+  --color-hairline: #b7d5c8;
+  --color-hairline-soft: #d4ebe3;
+  --color-charcoal: #2d5a45;
+  --color-ash: #3a6e57;
+  --color-mute: #3d7a62;
+  --color-stone: #3d7a62;
+  --color-success: #007d48;
+  --color-success-bright: #1eaa52;
+  --color-info: #1151ff;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1b4332;
+  font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+}
+
+/* FullCalendar overrides — green palette */
+.fc { font-family: inherit; }
+.fc .fc-toolbar { flex-wrap: wrap; gap: 0.5rem; }
+.fc .fc-toolbar-title { font-size: 1.1rem; font-weight: 700; color: #1b4332; }
+
+.fc .fc-button {
+  background-color: #1b4332 !important;
+  border-color: #1b4332 !important;
+  color: #fff !important;
+  border-radius: 9999px !important;
+  font-size: 0.8rem !important;
+  padding: 0.3rem 0.75rem !important;
+  box-shadow: none !important;
+  transition: opacity 0.15s;
+}
+.fc .fc-button:hover { opacity: 0.75; }
+.fc .fc-button-active,
+.fc .fc-button:not(:disabled):active {
+  background-color: #2d5a45 !important;
+  border-color: #2d5a45 !important;
+}
+.fc .fc-button-group { gap: 4px !important; display: inline-flex !important; }
+.fc .fc-button-group .fc-button { border-radius: 9999px !important; }
+.fc .fc-toolbar-chunk { display: flex; gap: 6px; align-items: center; }
+
+.fc .fc-col-header-cell { background-color: #1b4332; color: #fff; font-weight: 600; font-size: 0.8rem; padding: 0.4rem 0; }
+.fc .fc-col-header-cell a { color: #fff !important; }
+
+.fc .fc-daygrid-day { background-color: #ffffff; }
+.fc .fc-daygrid-day:hover { background-color: #f0f7f4; }
+.fc .fc-daygrid-day-number { color: #1b4332; font-size: 0.8rem; font-weight: 500; padding: 4px 6px; }
+
+.fc .fc-day-today { background-color: #f0f7f4 !important; }
+.fc .fc-day-today .fc-daygrid-day-number {
+  background-color: #1b4332;
+  color: #fff;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.fc .fc-event { background-color: #1b4332 !important; border-color: #1b4332 !important; border-radius: 4px !important; font-size: 0.75rem !important; padding: 1px 4px !important; color: #fff !important; }
+.fc .fc-event:hover { background-color: #2d5a45 !important; border-color: #2d5a45 !important; }
+
+.fc .fc-list { background-color: #ffffff; border-color: #b7d5c8 !important; }
+.fc .fc-list-table td { background-color: #ffffff; color: #1b4332; border-color: #b7d5c8 !important; }
+.fc .fc-list-event:hover td { background-color: #f0f7f4; cursor: pointer; }
+.fc .fc-list-event-title a { color: #1b4332 !important; font-weight: 500; }
+.fc .fc-list-day-cushion { background-color: #1b4332 !important; color: #fff !important; font-weight: 600; }
+.fc .fc-list-day-side-text, .fc .fc-list-day-text { color: #fff !important; }
+.fc .fc-list-event-dot { border-color: #b7d5c8 !important; }
+.fc .fc-list-empty { background-color: #ffffff; color: #3d7a62; }
+
+.fc .fc-scrollgrid { border-color: #b7d5c8 !important; overflow: hidden; }
+.fc td, .fc th { border-color: #b7d5c8 !important; }
+
+/* Hide Edge password reveal */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear { display: none; }

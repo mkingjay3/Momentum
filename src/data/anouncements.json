@@ -1,0 +1,44 @@
+[
+  {
+
+"id": "1",
+"title": "I want biking friend!",
+"author": "Sriram",
+"date": "2026-03-10",
+"category": "milestone",
+"body": "I am so sad becuase I dont have any biking friend :("
+},
+{
+"id": "2",
+"title": "Bro that physics test was so hard",
+"author": "Aarush",
+"date": "2026-03-10",
+"category": "milestone",
+"body": "Im lwk the goat of physics though so its chill"
+},
+
+{
+"id": "3",
+"title": "Biking cleanup service!",
+"author": "Yohaan",
+"date": "2026-03-10",
+"category": "milestone",
+"body": "Save Earth"
+},
+{
+    "id": "4",
+"title": "Benifits of biking instead of driving",
+"author": "Sath",
+"date": "2026-03-10",
+"category": "milestone",
+"body": "You can flex on everyone stuck in traffic"
+},
+{
+    "id": "5",
+"title": "Cool Biking frame to sell",
+"author": "Sriram",
+"date": "2026-03-10",
+"category": "milestone",
+"body": "Better than E-Bay"
+}
+]
